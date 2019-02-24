@@ -18,7 +18,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden; 
 }
-
+/* 
+    Background 
+*/
 .background {
     background: 
     url("http://img.talkandroid.com/uploads/2013/03/htc-sense-5-wallpaper-3.jpg")
@@ -32,6 +34,10 @@ body {
     z-index: -1
 }
 
+/* 
+    Controls buttons 
+*/
+
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 .btn {
     text-transform: uppercase;
@@ -40,7 +46,7 @@ body {
     font-size: 0.625rem;
     letter-spacing: 0.3em;
     color: rgba(223,190,106,0.7);
-    background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+    background-image: linear-gradient(to right, #0195ba 0%, #007596 51%, #2b5876 100%);
     background-position: 1% 50%;
     background-size: 300% 300%;
     text-decoration: none;
@@ -56,6 +62,9 @@ body {
     background-position: right center;
 }
 
+/* 
+    Overview. 
+*/
 .card {
     box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
 }
@@ -97,17 +106,6 @@ section .container {
     color: #fff;
     background-color: #007b5e;
     border-color: #007b5e;
-}
-
-section {
-    padding: 60px 0;
-}
-
-section .section-title {
-    text-align: center;
-    color: #007b5e;
-    margin-bottom: 50px;
-    text-transform: uppercase;
 }
 
 .frontside {
@@ -158,4 +156,3 @@ section .section-title {
     font-size: 18px;
     color: #007b5e !important;
 }
-
